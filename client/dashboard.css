@@ -1,0 +1,71 @@
+.offline-status {
+    color: red;
+}
+
+.online-status {
+    color: green;
+}
+
+.chat-container {
+    border: 1px solid gray;
+    height: 500px;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color: lightblue;
+    overflow-y: auto;
+}
+
+.send {
+    border: 1px solid gray;
+    margin-right: 50px;
+    height: 45px;
+    width: 960px;
+}
+
+.send input {
+    width: 880px;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.send button {
+    height: 100%;
+    width: 70px;
+}
+
+.my-chat {
+    float: right;
+    clear: both;
+    border: 1px solid gray;
+    margin: 10px;
+    width: 300px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.other-chat {
+    float: left;
+    clear: both;
+    border: 1px solid gray;
+    margin: 10px;
+    width: 300px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.chat-section {
+    display: none;
+}
+
+.welcome {
+    margin-left: 200px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}

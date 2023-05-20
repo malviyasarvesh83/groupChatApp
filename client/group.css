@@ -1,0 +1,61 @@
+.welcome {
+    margin-left: 200px;
+}
+
+.list-group {
+    height: 500px;
+    overflow-y: auto;
+    display: none;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.groups {
+    display: flex;
+}
+
+.chat-section{
+    display: none;
+}
+
+.chat-section {
+    border: 1px solid gray;
+    height: 550px;
+}
+
+.chat-container {
+    border: 1px solid gray;
+    height: 510px;
+    background-color: lightblue;
+}
+
+.send {
+    border: 1px solid gray;
+    width: 875px;
+    height: 40px;
+}
+
+.send input {
+    width: 800px;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.send button {
+    width: 65px;
+    height: 40px;
+}
+
+.add-member {
+    margin-left: 30px;
+}
+
+.groupMember {
+    height: 400px;
+    overflow-y: auto;
+}
